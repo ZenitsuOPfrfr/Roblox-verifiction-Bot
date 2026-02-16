@@ -20,11 +20,35 @@ function startBot() {
 
 startBot();
 
-// Keep-alive server for Render
+// Keep-alive server
 const http = require('http');
 const server = http.createServer((req, res) => {
     res.writeHead(200);
     res.end('Verification bot is running!');
 });
 server.listen(process.env.PORT || 3000);
-console.log('Keep-alive server started on port', process.env.PORT || 3000);
+```
+
+4. Click **"Commit new file"**
+
+---
+
+### **Step 3: Check Your Files**
+
+Your repo should now have:
+```
+Roblox-verifiction-Bot/
+├── verification-bot.js  ✅ (you have this)
+├── package.json         ✅ (just added)
+└── start.js             ✅ (just added)
+```
+
+---
+
+### **Step 4: Render Will Auto-Deploy**
+
+1. Render will detect the changes
+2. Wait 2-3 minutes
+3. Check Render logs for:
+```
+   ✅ Verification Bot Ready
