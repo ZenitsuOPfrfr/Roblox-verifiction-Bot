@@ -1,7 +1,7 @@
 {
   "name": "roblox-verification-bot",
   "version": "1.0.0",
-  "description": "Premium Roblox verification bot with beautiful UI",
+  "description": "Premium Roblox verification bot",
   "main": "start.js",
   "scripts": {
     "start": "node start.js"
