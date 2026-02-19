@@ -27,10 +27,10 @@ const client = new Client({
 
 const CONFIG = {
     // Role to give after verification (set this to your verified role ID)
-    VERIFIED_ROLE_ID: 'YOUR_VERIFIED_ROLE_ID_HERE',
+    VERIFIED_ROLE_ID: '1429290360030499019',
     
     // Channel where verification happens (set to your verify channel ID)
-    VERIFY_CHANNEL_ID: 'YOUR_VERIFY_CHANNEL_ID_HERE',
+    VERIFY_CHANNEL_ID: '1473088159440179392',
     
     // Ghost ping channel (pings new members then deletes)
     GHOST_PING_CHANNEL_ID: '1473088159440179392',
